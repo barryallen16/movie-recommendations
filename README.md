@@ -18,7 +18,7 @@ OMDB API which provides 1000 free api calls per day was used to get movie poster
    cd movie-recommendations
 2. **Install requirements.txt**:
    ```bash
-      pip install -r requirements.txt
+   pip install -r requirements.txt
 3. **Run the code**:
     ```bash
-        streamlit run ./main.py   
+   streamlit run ./main.py   
