@@ -6,8 +6,8 @@ from PIL import Image
 import requests
 from io import BytesIO
 
-users = pd.read_csv("ml-100k/u.data", sep="\t", names=["user_id", "item_id", "rating", "timestamp"])
-movies = pd.read_csv("ml-100k/Movie_Id_Titles.csv")
+users = pd.read_csv("u.data", sep="\t", names=["user_id", "item_id", "rating", "timestamp"])
+movies = pd.read_csv("Movie_Id_Titles.csv")
 
 df = pd.merge(users, movies, on="item_id")
 
